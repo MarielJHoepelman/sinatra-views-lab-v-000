@@ -1,6 +1,10 @@
 class App < Sinatra::Base
 
-	get '/' do
+  get '/' do
+  'Hello world!'
+  end
+
+  get '/' do
 		erb :index
 	end
 
