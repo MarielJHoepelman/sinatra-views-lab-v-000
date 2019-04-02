@@ -5,6 +5,10 @@ class App < Sinatra::Base
   end
 
   get '/' do
+    erb :goodbye
+  end
+
+  get '/' do
 		erb :index
 	end
 
